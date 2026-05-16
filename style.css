@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: monospace;
+  background: #1a1a2e;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: #16213e;
+  border: 1px solid #0f3460;
+  border-radius: 8px;
+  padding: 32px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  color: #e94560;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Password output box */
+.output {
+  background: #0f3460;
+  border-radius: 4px;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  min-height: 48px;
+}
+
+#password {
+  word-break: break-all;
+  font-size: 0.95rem;
+  color: #a8dadc;
+}
+
+#copy-btn {
+  background: transparent;
+  border: 1px solid #e94560;
+  color: #e94560;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+#copy-btn:hover {
+  background: #e94560;
+  color: #fff;
+}
+
+/* Slider */
+.option label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+input[type="range"] {
+  width: 100%;
+  accent-color: #e94560;
+}
+
+/* Checkboxes */
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.checkboxes label {
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+input[type="checkbox"] {
+  accent-color: #e94560;
+  width: 16px;
+  height: 16px;
+}
+
+/* Generate button */
+#generate-btn {
+  background: #e94560;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: monospace;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+#generate-btn:hover {
+  background: #c73652;
+}
+
+/* Small message (copy confirmation / error) */
+#message {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #a8dadc;
+  min-height: 16px;
+}
