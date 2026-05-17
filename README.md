@@ -1,4 +1,7 @@
 # password-generator
+
+![Password Generator preview](assets/preview.svg)
+
 A simple password generator that runs in the browser.
 Built this to practice JavaScript DOM manipulation and work with basic logic like loops and conditionals.
 
