@@ -24,15 +24,22 @@ function generatePassword() {
     return;
   }
 
-  // Pick random characters from the pool
+  // Pick random characters from the pool.
+  // crypto.getRandomValues is better suited for password generation than Math.random().
   let password = "";
   for (let i = 0; i < length; i++) {
-    const randomIndex = Math.floor(Math.random() * pool.length);
+    const randomIndex = getSecureRandomIndex(pool.length);
     password += pool[randomIndex];
   }
 
   document.getElementById("password").textContent = password;
   showMessage("");
+}
+
+function getSecureRandomIndex(max) {
+  const randomValues = new Uint32Array(1);
+  crypto.getRandomValues(randomValues);
+  return randomValues[0] % max;
 }
 
 function copyPassword() {
