@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Password Generator preview">
+  <rect width="1200" height="675" rx="28" fill="#101827"/>
+  <circle cx="1010" cy="130" r="110" fill="#f97316" opacity="0.22"/>
+  <circle cx="210" cy="540" r="150" fill="#14b8a6" opacity="0.16"/>
+  <rect x="330" y="115" width="540" height="445" rx="28" fill="#0f172a" stroke="#334155"/>
+  <text x="390" y="185" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">Password Generator</text>
+  <text x="390" y="225" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="20">Plain JavaScript + Web Crypto API</text>
+  <rect x="390" y="275" width="420" height="70" rx="14" fill="#111827" stroke="#475569"/>
+  <text x="420" y="320" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="23">X9!mQ2#vL8pR</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="20" fill="#cbd5e1">
+    <text x="390" y="390">Length: 16</text>
+    <text x="390" y="430">✓ uppercase   ✓ lowercase</text>
+    <text x="390" y="470">✓ numbers     ✓ symbols</text>
+  </g>
+  <rect x="390" y="500" width="160" height="42" rx="12" fill="#f59e0b"/>
+  <text x="425" y="528" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Generate</text>
+  <rect x="570" y="500" width="120" height="42" rx="12" fill="#1f2937" stroke="#475569"/>
+  <text x="607" y="528" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Copy</text>
+</svg>
